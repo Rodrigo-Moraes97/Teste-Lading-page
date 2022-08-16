@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino de Páginas - Lading page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="assets/CSS/variables.css">
+    <link rel="stylesheet" href="assets/CSS/classes.css">
+    <link rel="stylesheet" href="assets/CSS/elements.css">
+    <link rel="stylesheet" href="assets/CSS/menu.css">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+</head>
+
+<body>
+
+  <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+  <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <aside class="menu white-bg"> 
+      <div class="main-content menu-content">
+        <h1 onclick="getElementById('close-menu').checked = false;"> 
+          <a href="#Home"> Introdução </a> </h1>
+        <nav>
+            <ul onclick="getElementById('close-menu').checked = false;">
+                <li> <a href="#Mineração"> Mineração</a> </li>
+                <li> <a href="#Moedas"> Moedas </a> </li>
+                <li> <a href="#Galeria"> Galeria </a> </li>
+                <li> <a href="#Cotações"> Cotações </a> </li>
+                <li> <a href="#Contato"> Contato </a> </li>
+            </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <div class="menu-spacing"></div>
+
+    <section id="Home" class="intro svg section">
+      <div class="main-content bitcoin-content">
+        <div class="intro-text-content">
+          <h2> Criptomoedas: Bitcoin </h2>
+          <p>Bitcoin é uma criptomoeda livre e descentralizada, um dinheiro eletrônico para transações financeiras ponto a ponto, com primeira citação no artigo descrevendo a implementação em 2008, mas apresentado no começo de 2009 na lista de discussão The Cryptography Mailing por um programador ou grupo de programadores sob o pseudônimo Satoshi Nakamoto. Bitcoin é considerada a primeira moeda digital mundial descentralizada, constituindo um sistema econômico alternativo, e responsável pelo ressurgimento do sistema bancário livre.</p>
+        </div>
+        <div class="intro-img">
+          <img src="assets/img/bitcoin.svg" alt="Desenho de um homem e uma mulher em um escritório, com o símbolo do biticoin entre eles"> 
+        </div>
+      </div>
+    </section>
+
+    <section id="Mineração" class="white-bg section">
+      <div class="main-content mineração-content">
+        <h2> Mineração de Criptomoedas</h2>
+          <p>A mineração de criptomoedas é o nome dado ao processo de validação e inclusão de novas transações na blockchain, enorme banco de dados público que registra o histórico de movimentações dos usuários. Como resultado, novas moedas digitais são criadas.</p>
+          <p>Em outras palavras, a mineração é a responsável por colocar mais criptomoedas em circulação, assim como faz um banco central ao “imprimir” dinheiro. A diferença é que, no caso de moedas digitais como o Bitcoin, não há uma autoridade gerenciando o processo – tudo é regido por algoritmos.</p>
+          <p>Quando o usuário envia uma criptomoeda ou partes dela para outra pessoa, essa transferência fica registrada na blockchain dentro de um bloco semelhante a um cofre. Esse bloco, assim que fica cheio de transações de vários usuários, precisa ser “selado” com um identificador, que funciona como um cadeado. Na ciência da computação, isso é chamado de hash.</p>
+      </div>
+    </section>
+    
+    <section id="Moedas" class="grid-one svg section">
+      <div class="main-content moedas-content"> 
+      <h2 class="grid-main-heading"> Moedas</h2>
+      <p class="grid-description">Ethereum, Litecoin, Binance Coin </p>
+      <div class="grid">
+        <article>
+          <h3>Ethereum</h3>
+          <p>Ethereum é a segunda maior plataforma de criptomoedas do mundo.
+        A maior característica é que praticamente qualquer coisa pode ser “etherizada”, sendo a DeFi sua maior expressão.
+        Assim como muitas outras criptomoedas, a Ethereum foi criada para tentar suprir problemas que se encontram com Bitcoins.
+        Bitcoin é muito bom para guardar como reserva de valor, mas pouco prático para o dia a dia, complexo e com pouca funcionalidade.</p>
+        </article>
+        <article>
+          <h3>Liticoin</h3>
+          <p>Litecoin é uma criptomoeda criada em 2011 – dois anos após o Bitcoin.
+            A ideia na sua criação foi, basicamente, a de tirar um pouco do peso operacional do Bitcoin – por isso, “Lite” (de light, mais leve) – e agilizar as operações com criptomoedas, que na época eram mais difíceis.</p>
+        </article>
+        <article>
+            <h3>Binance Coin</h3>
+            <p>BNB – Binance Coin criada em 2017 pela empresa Binance e com base na rede Ethereum, migrando, posteriormente, para a sua própria rede blockchain.
+        Assim, a Binance Coin é a moeda oficial da Exchange Binance.
+        Aliás, para que você pudesse operar dentro da Binance, deviam transformar seu dinheiro em Binance Coins antes de conseguir comprar outra criptomoeda.</p>
+        </article>
+       </div>
+    </div>
+    </section>
+
+    <section id="Galeria" class="grid-one white-bg section">
+      <div class="main-content moedas-content"> 
+      <h2 class="grid-main-heading"> Logos</h2>
+      <p class="grid-description">Bitcoin, Ethereum, Litecoin, Binance, Tether, Cardano</p>
+     
+      <div class="grid">
+        <div class="gallery-img">
+           <img src="https://img.freepik.com/fotos-gratis/bitcoin-isolado-no-fundo-branco_42547-2408.jpg?w=360" alt="Símbolo bitcoin">
+        </div>
+        <div class="gallery-img">
+          <img src="assets/img/ethereum.jpg" alt="logo da criptomoeda ethereum">
+        </div>
+        <div class="gallery-img">
+          <img src="assets/img/liticoin.jpg" alt="logo da criptomoeda liticoin">
+        </div>
+        <div class="gallery-img">
+          <img src="assets/img/Binance.png" alt="logo da criptomoeda binance">
+        </div>
+        <div class="gallery-img">
+          <img src="assets/img/Tether.jpg" alt="logo da criptomoeda tether">
+        </div>
+        <div class="gallery-img">
+          <img src="assets/img/Cardano.png" alt="logo da criptomoeda cardano">
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <section id="Cotações" class="svg section">
+      <div class="main-content mineração-content">
+        <h2> Cotações Criptomoedas</h2>
+          <p>A cotação das criptomoedas pode valorizar à medida que uma determinada moeda digital passa a ser aceita no mercado. Ou seja, quando ela fica mais conhecida e, com isso, utilizada entre os investidores.</p>
+          <p>A partir do momento no qual um número maior de pessoas começa a usar aplicativos e carteiras de moedas digitais, a cotação pode aumentar. Afinal, isso significa que mais pessoas estão investindo na compra de criptomoedas. Algumas cotações das moedas: </p>
+          
+          <div class="responsive-table">
+           <table>
+            <caption>Tabela de Preços</caption>
+
+            <thead>
+              <tr>
+              <th>Bitcoin</th>
+              <th>Ethereum</th>
+              <th>Binance</th>
+              <th>Tether</th>
+              <th>Cardano</th>
+             </tr>
+            </thead>
+
+             <tbody>
+              <tr>
+                <td>122993,84 Brl</td>
+                <td>9717,13 Brl</td>
+                <td>1623,25 Brl</td>
+                <td>5,09 Brl</td>
+                <td>2,88 Brl</td>
+              </tr>
+          
+              <tr>
+                <td>23801,94 EUR</td>
+                <td>1879,93 EUR</td>
+                <td>313,76 EUR</td>
+                <td>0,98 EUR</td>
+                <td>0,56 EUR</td>
+              </tr>
+             
+              <tr>
+                <td>24216,90 USD</td>
+                <td>1912,67 USD</td>
+                <td>319,20 USD</td>
+                <td>1,0002 USD</td>
+                <td>0,57 USD</td>
+              </tr>
+             </tbody>
+
+             <tfoot>
+              <tr>
+                <td colspan="5"> Cotações 15/08/2022 13:35 </td>
+              </tr>
+             </tfoot>
+           </table>
+          </div>
+      </div>
+    </section>
+
+    <section id="Contato" class="intro white-bg section">
+      <div class="main-content bitcoin-content">
+        <div class="intro-text-content">
+          <h2> Conhecimento Especializado</h2>
+          <p>Seja para conhecer os detalhes do Bitcoin ou de outras criptos, fazer o melhor curso criptomoedas pode abrir inúmeras portas. A partir dele, é possível começar a negociar esses ativos com mais expertise e segurança, além de garantir aquele tão sonhado dinheirinho extra, que é sempre muito bem-vindo.<br> Se increva para receber informações quando surgirem vagas e notícias a respeito do tema.</p>
+        </div>
+        <div class="intro-img">
+          <img src="assets/img/bitcoin.svg" alt="Desenho de um homem e uma mulher em um escritório, com o símbolo do biticoin entre eles"> 
+        </div>
+
+      <div class="contact-form">
+        <fieldset class="form-grid">
+          <legend> Faça Contato </legend>
+
+          <div class="form-group">
+            <label for="first-name"> Primeiro Nome</label>
+            <input type="text" name="first-name" id="first-name"
+            placeholder="Seu nome">
+          </div>
+          <div class="form-group">
+            <label for="last-name"> Sobrenome </label>
+            <input type="text" name="last-name" id="last-name"
+            placeholder="Seu sobrenome">
+          </div>
+
+          <div class="form-group">
+            <label for="email"> E-mail </label>
+            <input type="email" name="email" id="email" placeholder="Seu e-mail">
+          </div>
+
+          <div class="form-group  full-width" >
+            <label for="message"> Mensagem </label>
+            <textarea name=message id="message" cols="30" rows="10" placeholder="Sua mensagem"></textarea>
+          </div>
+
+          <div class="form-group full-width">
+           <button type="submit"> Enviar Mensagem</button>
+          </div>
+
+        </fieldset>
+      </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="footer svg">
+      <p><a rel="nofollow" target="_blank" href=""> Feito por Rodrigo Moraes </a></p>
+    </footer>
+    <a class="back-to-top" href="#"> > </a>
+</body>
+
+</html>
